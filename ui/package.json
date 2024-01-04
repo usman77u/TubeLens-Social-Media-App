@@ -1,0 +1,19 @@
+{
+  "name": "@tape.xyz/ui",
+  "version": "0.0.0",
+  "license": "AGPL-3.0",
+  "main": "./index.ts",
+  "scripts": {
+    "lint": "eslint . --ext .js,.ts,.tsx",
+    "typecheck": "tsc --pretty"
+  },
+  "devDependencies": {
+    "@tape.xyz/browser": "*",
+    "@tape.xyz/constants": "*",
+    "@tape.xyz/generic": "*",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "wavesurfer.js": "^7.6.0"
+  }
+}
